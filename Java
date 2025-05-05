@@ -1,0 +1,7 @@
+git checkout -b java
+echo 'public class APP Runner{
+public static void main(String[]args)
+{System.out.println('Java is actived");}}'>AppRunner.java
+git add AppRunner.java
+git commit -m "java setup is completed"
+git checkout main
